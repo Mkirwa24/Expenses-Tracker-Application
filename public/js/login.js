@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 setTimeout(() => window.location.href = '/Dashboard', 2000);
             } else {
                 // Display error message
-                showStatusMessage(data.message || 'Login failed.', 'red');
+                showStatusMessage(data.message || 'Login failed.Check Your Username and Password again', 'red');
             }
         } catch (error) {
             console.error('Error during login:', error);
