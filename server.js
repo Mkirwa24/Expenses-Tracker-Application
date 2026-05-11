@@ -23,7 +23,7 @@ dotenv.config();
 app.use(express.json());
 app.use(cors());
 // Update this line to configure CORS
-const frontendURL = 'https://expenses-tracking-application1.netlify.app'; // Replace with your actual front-end URL
+const frontendURL = 'https://expenses-tracking-application1.netlify.app'; // your actual front-end URL goes here
 app.use(cors({
     origin: frontendURL,
     methods: ['GET', 'POST', 'PUT', 'DELETE'],   // Specify allowed HTTP methods
